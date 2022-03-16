@@ -1,0 +1,32 @@
+# Site settings 配置站点
+title: '实验室站点'
+description: '这是一段描述'
+keyword: '关键词1, 关键词2, 关键词3'
+url: '' # your host 访问域名
+baseurl: '' # 二级目录
+language: zh-cn
+
+# Navigation Links 一级导航
+nav:
+  home: '/'
+  about: '/about.html'
+
+# Footer 版权申明
+footer:
+  since: 2022 # 起始年份
+  
+# Share 分享功能
+social-share: true
+social-share-items: ['wechat', 'webo']
+
+# SNS settings 配置社交网站
+sns:
+  github: 'https://github.com/shublcc'
+  researchgate: 'https://www.researchgate.net'
+
+# Links 友情链接
+links:
+  '上大官网' : 'https://www.shu.edu.cn'
+
+# Plugins 插件
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap]

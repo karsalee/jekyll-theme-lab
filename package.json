@@ -1,0 +1,32 @@
+{
+  "name": "jekyll-theme-lab",
+  "version": "0.0.1",
+  "description": "A jekyll theme for the laboratory in the University.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "gulp",
+    "preview": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build",
+    "format": "prettier --write '{*.md,./**/*.md}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shublcc/jekyll-theme-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shublcc/jekyll-theme-lab/issues"
+  },
+  "homepage": "https://github.com/shublcc/jekyll-theme-lab#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^2.6.0",
+    "sass": "^1.49.9"
+  }
+}
