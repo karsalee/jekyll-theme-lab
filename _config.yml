@@ -5,6 +5,7 @@ keyword: '关键词1, 关键词2, 关键词3'
 url: '' # your host 访问域名
 baseurl: '' # 二级目录
 language: zh-cn
+theme: minima
 
 # Navigation Links 一级导航
 nav:
